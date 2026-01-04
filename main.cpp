@@ -15,7 +15,7 @@
 #include <iostream>
 
 // Some emulators have a code limit per cheat, so we seperate
-// longer code into multiple cheats to overcome the long code limitation.
+// longer code into multiple cheats to bypass the long code limitation.
 // e.g. melonDS emulator has a 64 line code limit (doesn't accept code
 // greater than 64 lines).
 #define AR_MAXLINE_MELONDS      64
@@ -159,4 +159,5 @@ int main()
     fclose(f_txt_melonds_android);
     fclose(f_txt_melonds);
     fclose(f_txt_desmume);
+
 }
